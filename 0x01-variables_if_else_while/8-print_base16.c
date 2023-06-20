@@ -1,17 +1,23 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
- * main - prints the numbers in base 16
- * Return: Always 0
+ * main - main block
+ * Description: prints all single digit nuber of base 10
+ * starting from 0, followed by a new line.
+ * Return: always 0 (Success)
  */
 int main(void)
 {
-	int num;
-	char la;
+	char ch;
 
-	for (num = 0; num < 10; num++)
-		putchar((numb % 10) + '0');
-
+	for (ch = '0'; ch <= '9'; ch++)
+	{
+		putchar(ch);
+	}
+	for (ch = 'a'; ch <= 'f'; ch++)
+	{
+		putchar(ch);
+	}
 	putchar('\n');
 	return (0);
 }
