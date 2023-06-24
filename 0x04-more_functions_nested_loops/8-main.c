@@ -5,7 +5,7 @@
  *
  * Return: Always 0.
  */
-int main(void)
+int main (void)
 {
 	print_square(2);
 	print_square(10);
