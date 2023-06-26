@@ -5,7 +5,7 @@
  * @str: The string to be  treated
  */
 
- void puts2(char *str)
+void puts2(char *str)
 
 {
 
