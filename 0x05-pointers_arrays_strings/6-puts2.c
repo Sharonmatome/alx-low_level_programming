@@ -5,12 +5,12 @@
  * @str: The string to be  treated
  */
 
- void puts(char *str)
+ void puts2(char *str)
 
 {
 
 	int i;
-	int j;
+	int j= 0;
 
 	while (str[j] != '\0')
 	{
