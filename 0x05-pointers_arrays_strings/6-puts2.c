@@ -10,7 +10,7 @@
 {
 
 	int i;
-	int j= 0;
+	int j = 0;
 
 	while (str[j] != '\0')
 	{
